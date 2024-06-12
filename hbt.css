@@ -1,0 +1,61 @@
+.formulario {
+    margin: auto;
+    width: 300px;
+    padding: 15px;
+    border: 2px solid rgb(52, 88, 89,0.3); 
+    border-radius: 10px;
+    box-shadow: rgb(31, 87, 87) 2px 2px 20px;
+    background: cadetblue
+}
+
+.formulario label, h1{
+    font-weight: bold;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2px;
+}
+
+.formulario input{
+    background-color: rgb(168, 217, 219);
+    height: 25px;
+    margin: auto;
+    border-radius: 2px;
+    outline: none;
+    order: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.formulario select {
+    padding: 2px;
+}
+
+.formulario input {
+    border: 1px solid rgba(0, 0, 0, 0.3); 
+    outline: none;
+    color: rgba(52, 88, 89, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario input[name="Peso"] {
+    width: 10px; 
+}
+
+.formulario button {
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(168, 217, 219);
+    outline: none;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.0); 
+    height: 50px; 
+    box-sizing: border-box;
+}
+
+h5{
+    font-weight: bold;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2px;
+}
